@@ -1,0 +1,30 @@
+using Unity.VisualScripting;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class ToggleHighlightStaysActiveAfterLosingFocus : MonoBehaviour
+{
+    [SerializeField] private Toggle toggle;
+    [SerializeField] private Image imageToKeepFocusActive;
+
+    private void Awake()
+    {
+        toggle.onValueChanged.AddListener(OnToggleValueChanged);
+        OnToggleValueChanged(toggle.isOn);
+    }
+    private void Reset()
+    {
+        toggle = GetComponent<Toggle>();
+    }
+
+    private void OnDestroy()
+    {
+        toggle.onValueChanged.RemoveListener(OnToggleValueChanged);
+        
+    }
+    private void OnToggleValueChanged(bool isOn)
+    {
+        if (imageToKeepFocusActive == null) return;
+        imageToKeepFocusActive.color = toggle.isOn ? toggle.colors.highlightedColor : Color.clear;
+    }
+}
