@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Workspace" id="{beba08a5-0557-48d5-b83c-a35a4cde088c}">
 		<property name="builtBanksOutputDirectory">
-			<value>../../Fork/AdaptiveMusic/Assets/Fmod</value>
+			<value>../../Assets/Fmod</value>
 		</property>
 		<relationship name="masterEventFolder">
 			<destination>{7162ba45-09f6-42d4-a6f2-99290f2ca8b8}</destination>
