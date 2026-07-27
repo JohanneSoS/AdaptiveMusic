@@ -21,7 +21,7 @@ public class ControlDisplayer : MonoBehaviour
     [SerializeField] private TextMeshProUGUI transitionFrom;
     [SerializeField] private TextMeshProUGUI transitionTo;
 
-    public void Awake()
+    private void Start()
     {
         ChangeCurrentTrack(ControlManager.instance.currentBGMTrack);
     }
