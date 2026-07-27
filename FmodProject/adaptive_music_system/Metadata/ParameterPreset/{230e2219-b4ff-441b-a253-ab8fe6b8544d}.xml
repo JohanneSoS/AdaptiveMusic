@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{230e2219-b4ff-441b-a253-ab8fe6b8544d}">
+		<property name="name">
+			<value>CurrentBgmID</value>
+		</property>
+		<relationship name="folder">
+			<destination>{f0e4c762-a57a-4d45-b996-377885c99514}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{1040f581-590f-4060-8b9e-b4024a876865}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{1040f581-590f-4060-8b9e-b4024a876865}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>7</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>BGM0</value>
+			<value>BGM1</value>
+			<value>BGM2</value>
+			<value>BGM3</value>
+			<value>BGM4</value>
+			<value>BGM5</value>
+			<value>BGM6</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{19900dc2-6534-4c89-a09b-eb8b317de831}</destination>
+		</relationship>
+	</object>
+	<object class="ADSRModulator" id="{19900dc2-6534-4c89-a09b-eb8b317de831}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>cursorPosition</value>
+		</property>
+		<property name="initialValue">
+			<value>-100</value>
+		</property>
+		<property name="finalValue">
+			<value>-100</value>
+		</property>
+	</object>
+</objects>

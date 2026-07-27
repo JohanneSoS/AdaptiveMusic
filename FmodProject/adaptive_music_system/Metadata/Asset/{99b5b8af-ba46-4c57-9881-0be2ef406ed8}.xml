@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EncodableAsset" id="{99b5b8af-ba46-4c57-9881-0be2ef406ed8}">
+		<property name="assetPath">
+			<value>BGM/08_Kampf/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{e6ace765-b1cc-48fb-a026-f8e97d121d37}</destination>
+		</relationship>
+	</object>
+</objects>

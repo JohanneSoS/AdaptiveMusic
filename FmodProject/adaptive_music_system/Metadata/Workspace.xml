@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="Workspace" id="{beba08a5-0557-48d5-b83c-a35a4cde088c}">
+		<property name="builtBanksOutputDirectory">
+			<value>../../Fork/AdaptiveMusic/Assets/Fmod</value>
+		</property>
+		<relationship name="masterEventFolder">
+			<destination>{7162ba45-09f6-42d4-a6f2-99290f2ca8b8}</destination>
+		</relationship>
+		<relationship name="masterTagFolder">
+			<destination>{44697062-194b-4708-a139-afde2b5f0106}</destination>
+		</relationship>
+		<relationship name="masterEffectPresetFolder">
+			<destination>{0ad0d343-eeed-4887-88f0-9b04d8d1316d}</destination>
+		</relationship>
+		<relationship name="masterParameterPresetFolder">
+			<destination>{f0e4c762-a57a-4d45-b996-377885c99514}</destination>
+		</relationship>
+		<relationship name="masterBankFolder">
+			<destination>{35a174b0-8ec5-4e02-8c48-fdd499314252}</destination>
+		</relationship>
+		<relationship name="masterSandboxFolder">
+			<destination>{3f90818b-e9e0-4019-b315-8d8f489272cb}</destination>
+		</relationship>
+		<relationship name="masterAssetFolder">
+			<destination>{e6ace765-b1cc-48fb-a026-f8e97d121d37}</destination>
+		</relationship>
+		<relationship name="mixer">
+			<destination>{d1337d16-721a-4075-bb25-d125b17d77be}</destination>
+		</relationship>
+		<relationship name="profilerSessionFolder">
+			<destination>{ce525a49-8da8-4dff-8ff2-23a82157e132}</destination>
+		</relationship>
+		<relationship name="platforms">
+			<destination>{97dba023-5878-412d-93de-d0c010af58bf}</destination>
+		</relationship>
+	</object>
+</objects>

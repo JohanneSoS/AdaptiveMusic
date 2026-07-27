@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{5e45303d-d208-4737-ad5d-bf208426dcd2}">
+		<property name="assetPath">
+			<value>BGM/08_Kampf/08_Kampf_Tr01_Erbarmungslos_TR_v01_Main A.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>32</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{e6ace765-b1cc-48fb-a026-f8e97d121d37}</destination>
+		</relationship>
+	</object>
+</objects>

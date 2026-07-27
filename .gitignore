@@ -104,3 +104,9 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+### 
+/FmodProject/Build/*
+/FmodProject/.cache/*
+/FmodProject/.unsaved/*
+/FmodProject/.user/*
