@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6177bb54-47f2-4834-b444-c9c4854a9955" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AdaptiveMusic/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AdaptiveMusic/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AdaptiveMusic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AdaptiveMusic/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fmod/Desktop.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fmod/Desktop/Master.bank" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fmod/Desktop/Master.bank.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fmod/Desktop/Master.strings.bank" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fmod/Desktop/Master.strings.bank.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
-    </list>
+    <list default="true" id="6177bb54-47f2-4834-b444-c9c4854a9955" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,6 +91,7 @@
       <workItem from="1785158932535" duration="1264000" />
       <workItem from="1785172041299" duration="33000" />
       <workItem from="1785172418648" duration="18000" />
+      <workItem from="1785173510425" duration="230000" />
     </task>
     <servers />
   </component>
