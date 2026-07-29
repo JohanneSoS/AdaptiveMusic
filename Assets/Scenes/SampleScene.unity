@@ -9861,6 +9861,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 84074b1753d83fb4b9c5000357194d3c, type: 2}
   - {fileID: 11400000, guid: 8f51163794c20714b9c3bacd26a2e6d7, type: 2}
   - {fileID: 11400000, guid: 7096366fb02430c459c1e1d4dfeffd2b, type: 2}
+  - {fileID: 11400000, guid: b976dc0b4c571f24eaa604b49540f8f4, type: 2}
   linearTracks:
   - {fileID: 11400000, guid: 485fd922bd863a44a9190a083e651743, type: 2}
   - {fileID: 11400000, guid: f57dcdf9e5c3379408e1652965ab5db9, type: 2}
