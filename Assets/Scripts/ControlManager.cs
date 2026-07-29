@@ -25,7 +25,7 @@ public class ControlManager : MonoBehaviour
     {
         if (selectedBGMTrack != null)
         {
-            //Start Fmod Command with Info of selectedBGM.ID
+            AudioPlayer.instance.TransitionToNewBGM(selectedBGMTrack);
             Debug.Log("Start Transition from " + currentBGMTrack.trackID + currentBGMTrack.name + " to " + selectedBGMTrack.trackID + selectedBGMTrack.name + ".");
             currentBGMTrack = selectedBGMTrack;
             controlDisplayer.ChangeCurrentTrack(currentBGMTrack);
