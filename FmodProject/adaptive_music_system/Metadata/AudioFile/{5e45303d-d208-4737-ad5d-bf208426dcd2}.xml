@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{5e45303d-d208-4737-ad5d-bf208426dcd2}">
 		<property name="assetPath">
-			<value>BGM/08_Kampf/08_Kampf_Tr01_Erbarmungslos_TR_v01_Main A.wav</value>
+			<value>BGM/02/08_Kampf_Tr01_Erbarmungslos_TR_v01_Main A.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{cb916d02-cf4e-443e-984b-15d4741fb9d0}">
 		<property name="assetPath">
-			<value>BGM/03/03_Spannung_ Ungute Stimmung_Tr04_Gefahr_TR_v01_Main A.wav</value>
+			<value>BGM/01/03_Spannung_ Ungute Stimmung_Tr04_Gefahr_TR_v01_Main A.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
