@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 
+
 public class ControlManager : MonoBehaviour
 {
     public static ControlManager instance;
@@ -9,6 +10,7 @@ public class ControlManager : MonoBehaviour
     
     public TrackEntry currentBGMTrack;
     public TrackEntry selectedBGMTrack;
+    
 
     private void Awake()
     {

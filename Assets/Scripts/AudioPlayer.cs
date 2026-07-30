@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 using FMODUnity;
 using FMOD.Studio;
 
@@ -13,7 +14,10 @@ public class AudioPlayer : MonoBehaviour
     
     private FMOD.Studio.EventInstance bgmMusicInstance;
     private FMOD.Studio.EventInstance[] ambienceInstance;
+    
+    [SerializeField] private Slider intensitySlider;
 
+    [SerializeField] private float intensity;
     public int currentBgmID; 
     
     void Awake()
@@ -38,9 +42,10 @@ public class AudioPlayer : MonoBehaviour
         currentBgmID = (int)currentID;
     }
 
-    public void ChangeIntensity(float newValue)
+    public void ChangeIntensity()
     {
-        RuntimeManager.StudioSystem.setParameterByName("Intensity", newValue);
+        intensity = intensitySlider.value;
+        RuntimeManager.StudioSystem.setParameterByName("Intensity", intensity);
     }
 
     public void TransitionToNewBGM(TrackEntry newTrack)
