@@ -9,7 +9,7 @@ public class RowEntry : MonoBehaviour
     [SerializeField] private TextMeshProUGUI trackName;
     [SerializeField] private TextMeshProUGUI scenario;
     [SerializeField] private TextMeshProUGUI theme;
-    [SerializeField] private TextMeshProUGUI lenght;
+    [SerializeField] private TextMeshProUGUI composer;
 
     public void Initialize(TrackEntry trackEntry)
     {
@@ -19,7 +19,7 @@ public class RowEntry : MonoBehaviour
         trackName.text = entry.trackName;
         scenario.text = entry.scenario.ToString();
         theme.text = entry.theme.ToString();
-        lenght.text = entry.lenght.ToString();
+        composer.text = entry.composer.ToString();
     }
 
     public void OnClick()

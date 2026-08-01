@@ -8,14 +8,14 @@ public class ControlDisplayer : MonoBehaviour
     [SerializeField] private TextMeshProUGUI selectedTrackID;
     [SerializeField] private TextMeshProUGUI selectedTrackScenario;
     [SerializeField] private TextMeshProUGUI selectedTrackTheme;
-    [SerializeField] private TextMeshProUGUI selectedTrackLenght;
+    [SerializeField] private TextMeshProUGUI selectedTrackComposer;
     
     [Header("CurrentTrackInfo")]
     [SerializeField] private TextMeshProUGUI currentTrackName;
     [SerializeField] private TextMeshProUGUI currentTrackID;
     [SerializeField] private TextMeshProUGUI currentTrackScenario;
     [SerializeField] private TextMeshProUGUI currentTrackTheme;
-    [SerializeField] private TextMeshProUGUI currentTrackLenght;
+    [SerializeField] private TextMeshProUGUI currentTrackComposer;
     
     [Header("TransitionInfo")]
     [SerializeField] private TextMeshProUGUI transitionFrom;
@@ -32,7 +32,7 @@ public class ControlDisplayer : MonoBehaviour
         selectedTrackID.text = selectedTrack.trackID.ToString();
         selectedTrackScenario.text = selectedTrack.scenario.ToString();
         selectedTrackTheme.text = selectedTrack.theme.ToString();
-        selectedTrackLenght.text = selectedTrack.lenght.ToString();
+        selectedTrackComposer.text = selectedTrack.composer.ToString();
         
         string transitionToText = selectedTrack.trackID + "/" + selectedTrack.trackName;
         transitionTo.text = transitionToText;
@@ -44,16 +44,15 @@ public class ControlDisplayer : MonoBehaviour
         currentTrackID.text = currentTrack.trackID.ToString();
         currentTrackScenario.text = currentTrack.scenario.ToString();
         currentTrackTheme.text = currentTrack.theme.ToString();
-        currentTrackLenght.text = currentTrack.lenght.ToString();   
+        currentTrackComposer.text = currentTrack.composer.ToString();   
         
         string transitionFromText = currentTrack.trackID + "/" + currentTrack.trackName;
         transitionFrom.text = transitionFromText;
         transitionTo.text = "None";
-        
         selectedTrackName.text = "None";
         selectedTrackID.text = "None";
         selectedTrackScenario.text = "None";
         selectedTrackTheme.text = "None";
-        selectedTrackLenght.text = "None";
+        selectedTrackComposer.text = "None";
     }
 }

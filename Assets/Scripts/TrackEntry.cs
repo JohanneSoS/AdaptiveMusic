@@ -7,8 +7,8 @@ public class TrackEntry : ScriptableObject
     public string trackName;
     public Scenario scenario;
     public Theme theme;
-    public float lenght;
     public SoundType soundType;
+    public Composer composer;
 }
 
 public enum Scenario
@@ -16,11 +16,11 @@ public enum Scenario
     None,
     Ruhig,
     Emotional,
-    UnguteVorahnung,
+    Vorahnung,
     Anspannung,
-    GluecklicheMomente,
-    HerrlicherOrt,
-    MysterioeserOrt,
+    Gluecklich,
+    Herrlich,
+    Mysterioes,
     Kampf,
     Taverne,
     Tempel
@@ -44,4 +44,12 @@ public enum SoundType
     Linear,
     SFX,
     Ambience
+}
+
+public enum Composer
+{
+    None,
+    Tom,
+    Johannes,
+    other
 }

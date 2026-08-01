@@ -10,11 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3f77c995a1b7f03428b30efbd5b67aa3, type: 3}
-  m_Name: 02_DasUnbekannte
+  m_Name: 2_Erbarmungslos
   m_EditorClassIdentifier: Assembly-CSharp::TrackEntry
   trackID: 2
-  trackName: Das Unbekannte
-  scenario: 7
+  trackName: Erbarmungslos
+  scenario: 8
   theme: 0
-  lenght: 135
-  soundType: 1
+  lenght: 0
+  soundType: 0
+  composer: 1

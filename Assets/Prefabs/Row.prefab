@@ -126,7 +126,7 @@ MonoBehaviour:
   trackName: {fileID: 1907501720417612862}
   scenario: {fileID: 6045145655621592820}
   theme: {fileID: 7652030007413983995}
-  lenght: {fileID: 6374252339150534206}
+  composer: {fileID: 6374252339150534206}
 --- !u!114 &9204950238142651059
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -191,14 +191,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 8605760813000225992}
     m_Modifications:
-    - target: {fileID: 1579241264691779030, guid: e7b50f063969dfc45b428cbb8684ace1, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 200
-      objectReference: {fileID: 0}
-    - target: {fileID: 3933833455353926368, guid: e7b50f063969dfc45b428cbb8684ace1, type: 3}
-      propertyPath: m_Name
-      value: LengthText
-      objectReference: {fileID: 0}
     - target: {fileID: 4366588190969230832, guid: e7b50f063969dfc45b428cbb8684ace1, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -225,7 +217,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4366588190969230832, guid: e7b50f063969dfc45b428cbb8684ace1, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 150
+      value: 250
       objectReference: {fileID: 0}
     - target: {fileID: 4366588190969230832, guid: e7b50f063969dfc45b428cbb8684ace1, type: 3}
       propertyPath: m_SizeDelta.y
@@ -280,24 +272,16 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6490209089517309302, guid: e7b50f063969dfc45b428cbb8684ace1, type: 3}
-      propertyPath: m_text
-      value: 02:30
+      propertyPath: m_margin.x
+      value: -9.305542
+      objectReference: {fileID: 0}
+    - target: {fileID: 6490209089517309302, guid: e7b50f063969dfc45b428cbb8684ace1, type: 3}
+      propertyPath: m_margin.z
+      value: -13.027832
       objectReference: {fileID: 0}
     - target: {fileID: 8779990842492339387, guid: e7b50f063969dfc45b428cbb8684ace1, type: 3}
       propertyPath: m_Name
-      value: Lenght
-      objectReference: {fileID: 0}
-    - target: {fileID: 8818051912221455543, guid: e7b50f063969dfc45b428cbb8684ace1, type: 3}
-      propertyPath: m_Color.b
-      value: 0.8584906
-      objectReference: {fileID: 0}
-    - target: {fileID: 8818051912221455543, guid: e7b50f063969dfc45b428cbb8684ace1, type: 3}
-      propertyPath: m_Color.g
-      value: 0.7005607
-      objectReference: {fileID: 0}
-    - target: {fileID: 8818051912221455543, guid: e7b50f063969dfc45b428cbb8684ace1, type: 3}
-      propertyPath: m_Color.r
-      value: 0.827524
+      value: Composer
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -358,7 +342,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4366588190969230832, guid: e7b50f063969dfc45b428cbb8684ace1, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 400
+      value: 450
       objectReference: {fileID: 0}
     - target: {fileID: 4366588190969230832, guid: e7b50f063969dfc45b428cbb8684ace1, type: 3}
       propertyPath: m_SizeDelta.y
@@ -415,6 +399,14 @@ PrefabInstance:
     - target: {fileID: 6490209089517309302, guid: e7b50f063969dfc45b428cbb8684ace1, type: 3}
       propertyPath: m_text
       value: Battle
+      objectReference: {fileID: 0}
+    - target: {fileID: 6490209089517309302, guid: e7b50f063969dfc45b428cbb8684ace1, type: 3}
+      propertyPath: m_margin.x
+      value: -110.38434
+      objectReference: {fileID: 0}
+    - target: {fileID: 6490209089517309302, guid: e7b50f063969dfc45b428cbb8684ace1, type: 3}
+      propertyPath: m_margin.z
+      value: -110.38452
       objectReference: {fileID: 0}
     - target: {fileID: 8779990842492339387, guid: e7b50f063969dfc45b428cbb8684ace1, type: 3}
       propertyPath: m_Name
@@ -686,6 +678,14 @@ PrefabInstance:
       propertyPath: m_text
       value: None
       objectReference: {fileID: 0}
+    - target: {fileID: 6490209089517309302, guid: e7b50f063969dfc45b428cbb8684ace1, type: 3}
+      propertyPath: m_margin.x
+      value: -83.74963
+      objectReference: {fileID: 0}
+    - target: {fileID: 6490209089517309302, guid: e7b50f063969dfc45b428cbb8684ace1, type: 3}
+      propertyPath: m_margin.z
+      value: -87.4718
+      objectReference: {fileID: 0}
     - target: {fileID: 8779990842492339387, guid: e7b50f063969dfc45b428cbb8684ace1, type: 3}
       propertyPath: m_Name
       value: Theme
@@ -761,7 +761,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4366588190969230832, guid: e7b50f063969dfc45b428cbb8684ace1, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 700
+      value: 600
       objectReference: {fileID: 0}
     - target: {fileID: 4366588190969230832, guid: e7b50f063969dfc45b428cbb8684ace1, type: 3}
       propertyPath: m_SizeDelta.y
@@ -818,6 +818,14 @@ PrefabInstance:
     - target: {fileID: 6490209089517309302, guid: e7b50f063969dfc45b428cbb8684ace1, type: 3}
       propertyPath: m_text
       value: Battle
+      objectReference: {fileID: 0}
+    - target: {fileID: 6490209089517309302, guid: e7b50f063969dfc45b428cbb8684ace1, type: 3}
+      propertyPath: m_margin.x
+      value: 105.367004
+      objectReference: {fileID: 0}
+    - target: {fileID: 6490209089517309302, guid: e7b50f063969dfc45b428cbb8684ace1, type: 3}
+      propertyPath: m_margin.z
+      value: 107.03949
       objectReference: {fileID: 0}
     - target: {fileID: 8779990842492339387, guid: e7b50f063969dfc45b428cbb8684ace1, type: 3}
       propertyPath: m_Name

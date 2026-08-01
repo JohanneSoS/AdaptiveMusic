@@ -4,7 +4,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6177bb54-47f2-4834-b444-c9c4854a9955" name="Changes" comment="" />
+    <list default="true" id="6177bb54-47f2-4834-b444-c9c4854a9955" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AdaptiveMusic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AdaptiveMusic/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/html5/lib/3.1.39/libfmodstudio.a.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/html5/lib/3.1.39/libfmodstudio.a.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Row.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Row.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/TableBox.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/TableBox.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ControlDisplayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ControlDisplayer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ListManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ListManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RowEntry.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RowEntry.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TrackEntry.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TrackEntry.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/DefaultVolumeProfile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/DefaultVolumeProfile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/UniversalRP.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/UniversalRP.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/UniversalRenderPipelineGlobalSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/UniversalRenderPipelineGlobalSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TrackEntries/Ambience.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TrackEntries/BGM.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TrackEntries/BGM/00_Silence.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TrackEntries/BGM/00_Silence.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TrackEntries/BGM/01_Gefahr.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TrackEntries/BGM/01_Gefahr.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TrackEntries/BGM/02_Erbarmungslos.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TrackEntries/BGM/02_Erbarmungslos.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TrackEntries/BGM/03_BasicChill.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TrackEntries/BGM/03_BasicChill.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TrackEntries/BGM/04_Ausgeglichenheit.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TrackEntries/BGM/04_Ausgeglichenheit.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TrackEntries/Linear.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TrackEntries/Linear/00_Silence.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TrackEntries/Linear/00_Silence.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TrackEntries/Linear/01_Erbarmungslos.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TrackEntries/Linear/01_Erbarmungslos.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TrackEntries/Linear/02_DasUnbekannte.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TrackEntries/Linear/02_DasUnbekannte.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TrackEntries/Linear/03_TiefeFreundschaft.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TrackEntries/Linear/03_TiefeFreundschaft.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TrackEntries/SFX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +75,7 @@
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="O:\Programme\Unity\Hub\Editor\6000.3.17f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="D:\UnityEditor\6000.3.17f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath E:\Mehr\GameDev\Fork\AdaptiveMusic -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="E:\Mehr\GameDev\Fork\AdaptiveMusic" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -44,7 +83,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="O:\Programme\Unity\Hub\Editor\6000.3.17f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="D:\UnityEditor\6000.3.17f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath E:\Mehr\GameDev\Fork\AdaptiveMusic -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="E:\Mehr\GameDev\Fork\AdaptiveMusic" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -56,9 +95,6 @@
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
       <option name="projectPathOnTarget" />
-      <option name="runtimes">
-        <list />
-      </option>
       <option name="selectedOptions">
         <list />
       </option>
@@ -69,9 +105,6 @@
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
       <option name="projectPathOnTarget" />
-      <option name="runtimes">
-        <list />
-      </option>
       <option name="selectedOptions">
         <list />
       </option>
@@ -92,6 +125,12 @@
       <workItem from="1785172041299" duration="33000" />
       <workItem from="1785172418648" duration="18000" />
       <workItem from="1785173510425" duration="230000" />
+      <workItem from="1785356642374" duration="342000" />
+      <workItem from="1785357268750" duration="315000" />
+      <workItem from="1785362766000" duration="3396000" />
+      <workItem from="1785403716691" duration="1086000" />
+      <workItem from="1785610198329" duration="5313000" />
+      <workItem from="1785620638758" duration="2763000" />
     </task>
     <servers />
   </component>
