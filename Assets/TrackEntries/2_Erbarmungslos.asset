@@ -16,6 +16,5 @@ MonoBehaviour:
   trackName: Erbarmungslos
   scenario: 8
   theme: 0
-  lenght: 0
-  soundType: 0
   composer: 1
+  soundType: 0

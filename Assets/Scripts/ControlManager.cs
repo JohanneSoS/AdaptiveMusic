@@ -39,7 +39,7 @@ public class ControlManager : MonoBehaviour
         }
     }
 
-    public void PlaySection(TrackEntry track)
+    public void PlaySection(LinearSectionEntry track)
     {
         //pause bgm
         //play section
@@ -47,9 +47,14 @@ public class ControlManager : MonoBehaviour
         //start bgm again
     }
 
-    public void PlaySFX(TrackEntry track)
+    public void PlaySFX(OneShotEntry track)
     {
         //play SFX
         Debug.Log("Playing SFX " + track.trackID + " to " + track.name + ".");
+    }
+
+    public void SelectAmbience(AmbienceEntry ambience)
+    {
+        
     }
 }

@@ -8,52 +8,43 @@ using UnityEditor;
 public class ListManager : MonoBehaviour
 {
     [SerializeField] public List<TrackEntry> bgmTracks = new List<TrackEntry>();
-    [SerializeField] public List<TrackEntry> linearTracks = new List<TrackEntry>();
-    [SerializeField] public List<TrackEntry> sfxTracks = new List<TrackEntry>();
-    [SerializeField] public List<TrackEntry> ambienceTracks = new List<TrackEntry>();
+    [SerializeField] public List<LinearSectionEntry> linearTracks = new List<LinearSectionEntry>();
+    [SerializeField] public List<OneShotEntry> sfxTracks = new List<OneShotEntry>();
+    [SerializeField] public List<AmbienceEntry> ambienceTracks = new List<AmbienceEntry>();
 
 
     [ContextMenu("Populate Track Lists")]
     private void PopulateTrackLists()
     {
 #if UNITY_EDITOR
-        bgmTracks.Clear();
-        linearTracks.Clear();
-        sfxTracks.Clear();
-        ambienceTracks.Clear();
+        bgmTracks = FindAllAssetsOfType<TrackEntry>();
+        linearTracks = FindAllAssetsOfType<LinearSectionEntry>();
+        sfxTracks = FindAllAssetsOfType<OneShotEntry>();
+        ambienceTracks = FindAllAssetsOfType<AmbienceEntry>();
  
-        string[] guids = AssetDatabase.FindAssets("t:TrackEntry");
- 
-        foreach (string guid in guids)
-        {
-            string assetPath = AssetDatabase.GUIDToAssetPath(guid);
-            TrackEntry entry = AssetDatabase.LoadAssetAtPath<TrackEntry>(assetPath);
-            if (entry == null)
-                continue;
- 
-            switch (entry.soundType)
-            {
-                case SoundType.BGM:
-                    bgmTracks.Add(entry);
-                    break;
-                case SoundType.Linear:
-                    linearTracks.Add(entry);
-                    break;
-                case SoundType.SFX:
-                    sfxTracks.Add(entry);
-                    break;
-                case SoundType.Ambience:
-                    ambienceTracks.Add(entry);
-                    break;
-                default:
-                    Debug.LogWarning($"[ListManager] TrackEntry '{entry.name}' has an unhandled SoundType '{entry.soundType}' and was not added to any list.");
-                    break;
-            }
-        }
- 
-        Debug.Log($"[ListManager] Populated: {bgmTracks.Count} BGM, {linearTracks.Count} Linear, {sfxTracks.Count} SFX, {ambienceTracks.Count} Ambience tracks.");
+        Debug.Log($"[ListManager] Populated: {bgmTracks.Count} BGM, {linearTracks.Count} Linear, {sfxTracks.Count} SFX (OneShot), {ambienceTracks.Count} Ambience tracks.");
 #else
         Debug.LogWarning("[ListManager] PopulateTrackLists relies on AssetDatabase and only works in the Editor, not in builds.");
 #endif
     }
+ 
+#if UNITY_EDITOR
+    // Finds every asset of type T anywhere under Assets/.
+    private static List<T> FindAllAssetsOfType<T>() where T : Object
+    {
+        var result = new List<T>();
+        string typeName = typeof(T).Name;
+        string[] guids = AssetDatabase.FindAssets($"t:{typeName}");
+ 
+        foreach (string guid in guids)
+        {
+            string assetPath = AssetDatabase.GUIDToAssetPath(guid);
+            T asset = AssetDatabase.LoadAssetAtPath<T>(assetPath);
+            if (asset != null)
+                result.Add(asset);
+        }
+ 
+        return result;
+    }
+#endif
 }

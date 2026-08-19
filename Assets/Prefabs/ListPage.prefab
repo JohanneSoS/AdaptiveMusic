@@ -465,7 +465,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   rowPrefab: {fileID: 5535883261115337025, guid: 9e87a323121e9514db4b39ff325549b7, type: 3}
   rows: []
-  tracks: []
+  bgmTracks: []
+  linearTracks: []
+  ambienceTracks: []
+  oneShotTracks: []
   listManager: {fileID: 0}
   soundType: 0
 --- !u!1 &4769722689176795101
