@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{5df0c4bc-945e-4e3d-94b4-4e477c7b1e53}">
 		<property name="assetPath">
-			<value>BGM/04_Ausgeglichenheit/01_Ruhig_Tr02_Ausgeglichenheit_TR_v01_loop_flute.wav</value>
+			<value>BGM/04/01_Ruhig_Tr02_Ausgeglichenheit_TR_v01_loop_flute.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

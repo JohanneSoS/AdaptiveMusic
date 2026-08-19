@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{31a1655c-313a-455c-9a80-718966b7abad}">
 		<property name="assetPath">
-			<value>BGM/04_Ausgeglichenheit/01_Ruhig_Tr02_Ausgeglichenheit_TR_v01_outro_mandolin.wav</value>
+			<value>BGM/04/01_Ruhig_Tr02_Ausgeglichenheit_TR_v01_outro_mandolin.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
