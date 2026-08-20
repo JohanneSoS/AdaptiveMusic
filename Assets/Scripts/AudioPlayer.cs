@@ -16,8 +16,14 @@ public class AudioPlayer : MonoBehaviour
     private FMOD.Studio.EventInstance[] ambienceInstance;
     
     [SerializeField] private Slider intensitySlider;
+    [SerializeField] private Slider insideOutsideSlider;
+    [SerializeField] private Slider distanceToDestinationSlider;
+    [SerializeField] private Slider vividnessSlider;
 
     [SerializeField] private float intensity;
+    [SerializeField] private float insideOutside;
+    [SerializeField] private float distanceToDestination;
+    [SerializeField] private float vividness;
     public int currentBgmID; 
     
     void Awake()
@@ -51,6 +57,24 @@ public class AudioPlayer : MonoBehaviour
     public void TransitionToNewBGM(TrackEntry newTrack)
     {
         RuntimeManager.StudioSystem.setParameterByName("TargetBgmID", newTrack.trackID);
+    }
+
+    public void ChangeInsideOutside()
+    {
+        insideOutside = insideOutsideSlider.value;
+        Debug.Log("Inside outside: " + insideOutside);
+    }
+
+    public void ChangeDistanceToDestination()
+    {
+        distanceToDestination = distanceToDestinationSlider.value;
+        Debug.Log("Distance to destination: " + distanceToDestination);
+    }
+
+    public void ChangeVividness()
+    {
+        vividness = vividnessSlider.value;
+        Debug.Log("Vividness: " + vividness);
     }
     
 }

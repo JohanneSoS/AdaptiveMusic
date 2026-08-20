@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.Events;
+using System.Collections.Generic;
 
 
 public class ControlManager : MonoBehaviour
@@ -7,6 +8,7 @@ public class ControlManager : MonoBehaviour
     public static ControlManager instance;
     
     public ControlDisplayer controlDisplayer;
+    public CurrentAmbienceDisplay currentAmbienceDisplay;
     
     public TrackEntry currentBGMTrack;
     public TrackEntry selectedBGMTrack;
@@ -53,8 +55,40 @@ public class ControlManager : MonoBehaviour
         Debug.Log("Playing SFX " + track.trackID + " to " + track.name + ".");
     }
 
-    public void SelectAmbience(AmbienceEntry ambience)
+    public void SelectAmbience(AmbienceEntry track)
     {
-        
+        Debug.Log("Transition to Ambience " + track.trackID + " to " + track.name + ".");
+        currentAmbienceDisplay.ChangeCurrentTrack(track);
+        UpdateAdaptiveParameters(track);
+    }
+
+    private void UpdateAdaptiveParameters(AmbienceEntry track)
+    {
+        if (track.adaptiveParameter.Contains(AdaptiveParameter.InsideOutside))
+        {
+            currentAmbienceDisplay.insideOutsideSlider.SetActive(true);
+        }
+        else
+        {
+            currentAmbienceDisplay.insideOutsideSlider.SetActive(false);
+        }
+
+        if (track.adaptiveParameter.Contains(AdaptiveParameter.Vividness))
+        {
+            currentAmbienceDisplay.vividnessSlider.SetActive(true);
+        }
+        else
+        {
+            currentAmbienceDisplay.vividnessSlider.SetActive(false);
+        }
+
+        if (track.adaptiveParameter.Contains(AdaptiveParameter.DistanceToDestination))
+        {
+            currentAmbienceDisplay.distanceToDestinationSlider.SetActive(true);
+        }
+        else
+        {
+            currentAmbienceDisplay.distanceToDestinationSlider.SetActive(false);
+        }
     }
 }
