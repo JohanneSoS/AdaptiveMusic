@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{2c26576d-edc8-48b4-b229-303d67a7e9f9}">
+		<property name="name">
+			<value>DayToNight</value>
+		</property>
+		<relationship name="folder">
+			<destination>{f0e4c762-a57a-4d45-b996-377885c99514}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{a02704ec-8ce0-416f-9972-5353e36e1a65}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{a02704ec-8ce0-416f-9972-5353e36e1a65}">
+		<property name="maximum">
+			<value>100</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{3dd1056a-df43-414a-93d4-b3fa9432952a}</destination>
+			<destination>{f614b88e-488f-41cd-b9f3-da4f49b0b54a}</destination>
+		</relationship>
+	</object>
+	<object class="ADSRModulator" id="{3dd1056a-df43-414a-93d4-b3fa9432952a}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>cursorPosition</value>
+		</property>
+		<property name="initialValue">
+			<value>-100</value>
+		</property>
+		<property name="attackTime">
+			<value>1400</value>
+		</property>
+		<property name="releaseTime">
+			<value>2211.53882</value>
+		</property>
+		<property name="finalValue">
+			<value>-100</value>
+		</property>
+	</object>
+	<object class="SeekModulator" id="{f614b88e-488f-41cd-b9f3-da4f49b0b54a}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>cursorPosition</value>
+		</property>
+		<property name="speedAscending">
+			<value>0.19999998807907104</value>
+		</property>
+	</object>
+</objects>

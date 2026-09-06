@@ -1,2 +1,11 @@
 Assets/Plugins/FMOD/**/*.bundle text eol=lf
 Assets/Plugins/FMOD/**/Info.plist text eol=lf
+*.wav filter=lfs diff=lfs merge=lfs -text
+FmodProject/adaptive_music_system/Assets/Ambience/01/TTTT_ATMO_Ship_v01_CHAIN[[:space:]]INSIDE.wav filter=lfs diff=lfs merge=lfs -text
+FmodProject/adaptive_music_system/Assets/Ambience/01/TTTT_ATMO_Ship_v01_CREAKING[[:space:]]INSIDE.wav filter=lfs diff=lfs merge=lfs -text
+FmodProject/adaptive_music_system/Assets/Ambience/01/TTTT_ATMO_Ship_v01_CREAKING[[:space:]]OUTSIDE.wav filter=lfs diff=lfs merge=lfs -text
+FmodProject/adaptive_music_system/Assets/Ambience/01/TTTT_ATMO_Ship_v01_SAIL[[:space:]]OUTSIDE.wav filter=lfs diff=lfs merge=lfs -text
+FmodProject/adaptive_music_system/Assets/Ambience/01/TTTT_ATMO_Ship_v01_SEA[[:space:]]GULLS[[:space:]]INSIDE.wav filter=lfs diff=lfs merge=lfs -text
+FmodProject/adaptive_music_system/Assets/Ambience/01/TTTT_ATMO_Ship_v01_SEA[[:space:]]GULLS[[:space:]]OUTSIDE.wav filter=lfs diff=lfs merge=lfs -text
+FmodProject/adaptive_music_system/Assets/Ambience/01/TTTT_ATMO_Ship_v01_WATER[[:space:]]INSIDE.wav filter=lfs diff=lfs merge=lfs -text
+FmodProject/adaptive_music_system/Assets/Ambience/01/TTTT_ATMO_Ship_v01_WATER[[:space:]]OUTSIDE.wav filter=lfs diff=lfs merge=lfs -text
