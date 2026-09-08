@@ -187,6 +187,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{bd69d46f-3ad7-4ba5-bdd7-f613f07533af}">
+		<property name="volume">
+			<value>-9</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{78ab6dc7-25af-4aa7-b601-1c1eba515170}</destination>
 		</relationship>
@@ -841,6 +844,12 @@
 		<property name="value">
 			<value>0</value>
 		</property>
+		<property name="curveShape">
+			<value>0.5</value>
+		</property>
+		<property name="isSCurve">
+			<value>true</value>
+		</property>
 	</object>
 	<object class="AutomationPoint" id="{c82638bf-a5a7-479b-b27e-32c9e41aeb41}">
 		<property name="position">
@@ -872,6 +881,12 @@
 		</property>
 		<property name="value">
 			<value>-80</value>
+		</property>
+		<property name="curveShape">
+			<value>0.5</value>
+		</property>
+		<property name="isSCurve">
+			<value>true</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{d50f5e01-2ecb-4b6e-9fb6-c62369085fe1}">
@@ -905,6 +920,12 @@
 		<property name="value">
 			<value>0</value>
 		</property>
+		<property name="curveShape">
+			<value>0.5</value>
+		</property>
+		<property name="isSCurve">
+			<value>true</value>
+		</property>
 	</object>
 	<object class="AutomationPoint" id="{e213e281-10e4-4c8c-adfb-7d172445523b}">
 		<property name="position">
@@ -936,6 +957,12 @@
 		</property>
 		<property name="value">
 			<value>-80</value>
+		</property>
+		<property name="curveShape">
+			<value>0.5</value>
+		</property>
+		<property name="isSCurve">
+			<value>true</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{4b4d3e94-32c6-49b2-8391-68afae4569e8}">
@@ -969,6 +996,12 @@
 		<property name="value">
 			<value>0</value>
 		</property>
+		<property name="curveShape">
+			<value>0.5</value>
+		</property>
+		<property name="isSCurve">
+			<value>true</value>
+		</property>
 	</object>
 	<object class="AutomationPoint" id="{de9d8fc5-70f6-45df-9f4e-5ba6cb6afd7d}">
 		<property name="position">
@@ -984,6 +1017,12 @@
 		</property>
 		<property name="value">
 			<value>-80</value>
+		</property>
+		<property name="curveShape">
+			<value>0.5</value>
+		</property>
+		<property name="isSCurve">
+			<value>true</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{68b9e9cd-4cad-4d17-ac53-fffd1b90b36a}">
@@ -1016,6 +1055,12 @@
 		</property>
 		<property name="value">
 			<value>3.81469727e-06</value>
+		</property>
+		<property name="curveShape">
+			<value>0.5</value>
+		</property>
+		<property name="isSCurve">
+			<value>true</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{48a4ea0e-11e8-4251-8aac-f5d02f8691a1}">
@@ -1057,6 +1102,12 @@
 		<property name="value">
 			<value>-80</value>
 		</property>
+		<property name="curveShape">
+			<value>0.5</value>
+		</property>
+		<property name="isSCurve">
+			<value>true</value>
+		</property>
 	</object>
 	<object class="AutomationPoint" id="{7a4fc446-5663-4f48-9c9e-b47e252d5c99}">
 		<property name="position">
@@ -1072,6 +1123,12 @@
 		</property>
 		<property name="value">
 			<value>-5</value>
+		</property>
+		<property name="curveShape">
+			<value>0.5</value>
+		</property>
+		<property name="isSCurve">
+			<value>true</value>
 		</property>
 	</object>
 	<object class="Automator" id="{8c8adb47-cede-4cd2-a044-257c11efe4b2}">
@@ -1114,6 +1171,12 @@
 		</property>
 		<property name="value">
 			<value>-16</value>
+		</property>
+		<property name="curveShape">
+			<value>0.5</value>
+		</property>
+		<property name="isSCurve">
+			<value>true</value>
 		</property>
 	</object>
 </objects>

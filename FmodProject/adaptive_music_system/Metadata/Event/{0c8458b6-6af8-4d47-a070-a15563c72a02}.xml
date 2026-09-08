@@ -401,9 +401,6 @@
 		<property name="length">
 			<value>80.000124999999997</value>
 		</property>
-		<property name="volume">
-			<value>-3</value>
-		</property>
 		<property name="maximumTimeBetweenSounds">
 			<value>7500</value>
 		</property>

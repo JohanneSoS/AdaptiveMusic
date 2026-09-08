@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{a917413d-3fca-439d-8dde-0571840ad96a}">
+		<property name="name">
+			<value>AmbienceFader</value>
+		</property>
+		<relationship name="folder">
+			<destination>{f0e4c762-a57a-4d45-b996-377885c99514}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{e2aa0579-f285-4e13-bf72-b2263735e946}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{e2aa0579-f285-4e13-bf72-b2263735e946}">
+		<property name="maximum">
+			<value>100</value>
+		</property>
+		<property name="initialValue">
+			<value>100</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{8776a109-d52d-4d2f-ae70-ff7e5780c9f2}</destination>
+		</relationship>
+	</object>
+	<object class="SeekModulator" id="{8776a109-d52d-4d2f-ae70-ff7e5780c9f2}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>cursorPosition</value>
+		</property>
+		<property name="speedAscending">
+			<value>0.19999998807907104</value>
+		</property>
+	</object>
+</objects>
