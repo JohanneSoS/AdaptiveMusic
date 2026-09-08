@@ -13,6 +13,8 @@ public class CurrentAmbienceDisplay : MonoBehaviour
     public GameObject insideOutsideSlider;
     public GameObject distanceToDestinationSlider;
     public GameObject vividnessSlider;
+    public GameObject peopleNearbySlider;
+    public GameObject dayToNightSlider;
     
     public void ChangeCurrentTrack(AmbienceEntry currentTrack)
     {

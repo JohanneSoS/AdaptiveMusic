@@ -57,6 +57,7 @@ public class ControlManager : MonoBehaviour
 
     public void SelectAmbience(AmbienceEntry track)
     {
+        AudioPlayer.instance.ChangeAmbienceTrack(track);
         Debug.Log("Transition to Ambience " + track.trackID + " to " + track.name + ".");
         currentAmbienceDisplay.ChangeCurrentTrack(track);
         UpdateAdaptiveParameters(track);
@@ -89,6 +90,24 @@ public class ControlManager : MonoBehaviour
         else
         {
             currentAmbienceDisplay.distanceToDestinationSlider.SetActive(false);
+        }
+        
+        if (track.adaptiveParameter.Contains(AdaptiveParameter.PeopleNearby))
+        {
+            currentAmbienceDisplay.peopleNearbySlider.SetActive(true);
+        }
+        else
+        {
+            currentAmbienceDisplay.peopleNearbySlider.SetActive(false);
+        }
+        
+        if (track.adaptiveParameter.Contains(AdaptiveParameter.DayToNight))
+        {
+            currentAmbienceDisplay.dayToNightSlider.SetActive(true);
+        }
+        else
+        {
+            currentAmbienceDisplay.dayToNightSlider.SetActive(false);
         }
     }
 }
