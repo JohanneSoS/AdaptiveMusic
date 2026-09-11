@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{86ebb5f9-ad37-416e-b6d0-c4cf311662e0}">
+		<property name="assetPath">
+			<value>BGM/06/deep_premonition_bass_perc_synth_midIntens.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>83.47827083333334</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{e6ace765-b1cc-48fb-a026-f8e97d121d37}</destination>
+		</relationship>
+	</object>
+</objects>
