@@ -16,7 +16,7 @@
 			<value>2</value>
 		</property>
 		<property name="maximum">
-			<value>7</value>
+			<value>8</value>
 		</property>
 		<property name="enumerationLabels">
 			<value>BGM0</value>
@@ -26,6 +26,7 @@
 			<value>BGM4</value>
 			<value>BGM5</value>
 			<value>BGM6</value>
+			<value>BGM7</value>
 		</property>
 		<property name="isGlobal">
 			<value>true</value>

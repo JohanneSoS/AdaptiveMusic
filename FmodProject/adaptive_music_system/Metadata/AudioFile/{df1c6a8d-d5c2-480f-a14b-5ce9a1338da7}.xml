@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{df1c6a8d-d5c2-480f-a14b-5ce9a1338da7}">
+		<property name="assetPath">
+			<value>BGM/07/loop_string_pizz.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>137.14285416666667</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{e6ace765-b1cc-48fb-a026-f8e97d121d37}</destination>
+		</relationship>
+	</object>
+</objects>
