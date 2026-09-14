@@ -20687,6 +20687,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: e9311ebbe5c4eba488ee79e0a3dcc46b, type: 2}
   - {fileID: 11400000, guid: e80ac0b9017364a4fb4f39c22a17c47b, type: 2}
   - {fileID: 11400000, guid: 6dc7086090eafe847884bcc901e84a0c, type: 2}
+  - {fileID: 11400000, guid: 5059495deb0b1aa4bbad34994231ac02, type: 2}
   linearTracks:
   - {fileID: 11400000, guid: b00daae67a61e5248a5434eb2ba9012d, type: 2}
   sfxTracks:
