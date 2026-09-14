@@ -30,15 +30,29 @@ public class AudioPlayer : MonoBehaviour
     [SerializeField] private float dayToNight;
     public int currentBgmID;
     public int currentAmbienceID;
-    
 
+
+    private Bus Master;
+    private Bus Music;
+    private Bus Ambience;
+    private Bus OneShots;
+    public float masterVol;
+    public float musicVol;
+    public float ambienceVol;
+    public float oneShotVol;
+    
     void Awake()
     {
         instance = this;
+        Master = FMODUnity.RuntimeManager.GetBus("bus:/");
+        Music = FMODUnity.RuntimeManager.GetBus("bus:/BGM");
+        Ambience = FMODUnity.RuntimeManager.GetBus("bus:/Ambiences");
+        OneShots = FMODUnity.RuntimeManager.GetBus("bus:/OneShots");
     }
     
     void Start()
     {
+        UpdateVolume();
         bgmMusicInstance = FMODUnity.RuntimeManager.CreateInstance(bgmMusic);
         ambienceInstance = FMODUnity.RuntimeManager.CreateInstance(ambience);
         RuntimeManager.StudioSystem.setParameterByName("CurrentBgmID", 0);
@@ -55,6 +69,38 @@ public class AudioPlayer : MonoBehaviour
     {
         RuntimeManager.StudioSystem.getParameterByName("CurrentBgmID", out float currentID);
         currentBgmID = (int)currentID;
+    }
+
+    public void ChangeMasterVolume(Slider newVol)
+    {
+        masterVol = newVol.value;
+        UpdateVolume();
+    }
+
+    public void ChangeMusicVolume(Slider newVol)
+    {
+        musicVol = newVol.value;
+        UpdateVolume();
+    }
+
+    public void ChangeAmbienceVolume(Slider newVol)
+    {
+        ambienceVol = newVol.value;
+        UpdateVolume();
+    }
+
+    public void ChangeOneShotVolume(Slider newVol)
+    {
+        oneShotVol = newVol.value;
+        UpdateVolume();
+    }
+
+    void UpdateVolume()
+    {
+        Master.setVolume(masterVol);
+        Music.setVolume(musicVol);
+        Ambience.setVolume(ambienceVol);
+        OneShots.setVolume(oneShotVol);
     }
 
     public void ChangeIntensity()

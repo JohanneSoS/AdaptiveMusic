@@ -6,17 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6177bb54-47f2-4834-b444-c9c4854a9955" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AdaptiveMusic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AdaptiveMusic/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/Resources/FMODStudioSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/Resources/FMODStudioSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/AudioPlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AudioPlayer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ControlManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ControlManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CurrentAmbienceDisplay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CurrentAmbienceDisplay.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnumUtilizer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnumUtilizer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TrackEntries/Ambiences.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TrackEntries/Ambiences/00_Silence.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TrackEntries/Ambiences/00_Silence.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TrackEntries/Ambiences/01_Ship.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TrackEntries/Ambiences/01_Ship.asset.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +45,7 @@
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="D:\UnityEditor\6000.3.17f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="O:\Programme\Unity\Hub\Editor\6000.3.17f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath E:\Mehr\GameDev\Fork\AdaptiveMusic -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="E:\Mehr\GameDev\Fork\AdaptiveMusic" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -62,7 +53,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="D:\UnityEditor\6000.3.17f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="O:\Programme\Unity\Hub\Editor\6000.3.17f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath E:\Mehr\GameDev\Fork\AdaptiveMusic -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="E:\Mehr\GameDev\Fork\AdaptiveMusic" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -74,6 +65,9 @@
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
       <option name="projectPathOnTarget" />
+      <option name="runtimes">
+        <list />
+      </option>
       <option name="selectedOptions">
         <list />
       </option>
@@ -84,6 +78,9 @@
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
       <option name="projectPathOnTarget" />
+      <option name="runtimes">
+        <list />
+      </option>
       <option name="selectedOptions">
         <list />
       </option>
@@ -113,6 +110,7 @@
       <workItem from="1787162895322" duration="10463000" />
       <workItem from="1787238883465" duration="4680000" />
       <workItem from="1788893406443" duration="2365000" />
+      <workItem from="1789379241196" duration="2674000" />
     </task>
     <servers />
   </component>
