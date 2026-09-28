@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{2044110d-9339-4f67-aca5-e990604cb89c}">
+	<object class="AudioFile" id="{03c2dea5-6825-4c1b-b244-05f1c96d5cec}">
 		<property name="assetPath">
-			<value>BGM/01/03_Spannung_ Ungute Stimmung_Tr04_Gefahr_TR_v01_Main B.wav</value>
+			<value>BGM/01/TTT - Szenario - Spannung_ ungute Stimmung - Gefahr - Einzelstems - 0003 - Instrument - Glockenspiel.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
@@ -14,7 +14,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>36.028624999999998</value>
+			<value>122.03395833333333</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{e6ace765-b1cc-48fb-a026-f8e97d121d37}</destination>

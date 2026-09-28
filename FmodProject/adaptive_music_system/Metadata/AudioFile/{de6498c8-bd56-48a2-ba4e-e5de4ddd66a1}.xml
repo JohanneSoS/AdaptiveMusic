@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{beca3998-1121-4fa4-93b9-da230826f270}">
+	<object class="AudioFile" id="{de6498c8-bd56-48a2-ba4e-e5de4ddd66a1}">
 		<property name="assetPath">
-			<value>BGM/02/08_Kampf_Tr01_Erbarmungslos_TR_v01_Main B.wav</value>
+			<value>BGM/02/TTT - Kampf - Erbarmungslos- Part A medium intensity - Blechbläser layer, 120bpm.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
@@ -14,7 +14,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>48</value>
+			<value>64.000020833333338</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{e6ace765-b1cc-48fb-a026-f8e97d121d37}</destination>

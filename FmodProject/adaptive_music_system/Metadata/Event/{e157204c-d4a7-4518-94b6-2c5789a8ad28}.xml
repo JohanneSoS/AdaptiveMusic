@@ -5,7 +5,7 @@
 			<value>BGM</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>5</value>
 		</property>
 		<relationship name="folder">
 			<destination>{7162ba45-09f6-42d4-a6f2-99290f2ca8b8}</destination>
