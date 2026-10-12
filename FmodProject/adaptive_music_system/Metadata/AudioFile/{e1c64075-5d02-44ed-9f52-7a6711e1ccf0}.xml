@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{037f8620-02c9-48d5-b4c8-91987f82ba90}">
+	<object class="AudioFile" id="{e1c64075-5d02-44ed-9f52-7a6711e1ccf0}">
 		<property name="assetPath">
-			<value>BGM/07/loop_cello.wav</value>
+			<value>BGM/10/mysterious_stem_bass_strings.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
@@ -14,7 +14,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>137.14285416666667</value>
+			<value>174.54545833333333</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{e6ace765-b1cc-48fb-a026-f8e97d121d37}</destination>
