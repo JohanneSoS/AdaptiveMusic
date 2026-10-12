@@ -57,5 +57,6 @@ public enum AdaptiveParameter
     DistanceToDestination,
     Vividness,
     PeopleNearby,
-    DayToNight
+    DayToNight,
+    WaterDistance
 }

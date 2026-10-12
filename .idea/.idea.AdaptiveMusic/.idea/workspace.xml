@@ -6,11 +6,21 @@
   <component name="ChangeListManager">
     <list default="true" id="6177bb54-47f2-4834-b444-c9c4854a9955" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AdaptiveMusic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AdaptiveMusic/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/UniversalRP.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/UniversalRP.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/UniversalRenderPipelineGlobalSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/UniversalRenderPipelineGlobalSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AudioPlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AudioPlayer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ControlManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ControlManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CurrentAmbienceDisplay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CurrentAmbienceDisplay.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnumUtilizer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnumUtilizer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TrackEntries/8_Das Unbekannte.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TrackEntries/8_Das Unbekannte.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TrackEntries/8_Das Unbekannte.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TrackEntries/8_Das Unbekannte.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TrackEntries/9_Old memories.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TrackEntries/9_Old memories.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TrackEntries/9_Old memories.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TrackEntries/9_Old memories.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TrackEntries/Ambience/1_An Board.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TrackEntries/Ambience/1_An Board.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TrackEntries/Ambience/1_An Board.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TrackEntries/Ambience/1_An Board.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TrackEntries/Ambience/2_Wo die Gründerinnen wohnen.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TrackEntries/Ambience/2_Wo die Gründerinnen wohnen.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TrackEntries/Ambience/2_Wo die Gründerinnen wohnen.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TrackEntries/Ambience/2_Wo die Gründerinnen wohnen.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TrackEntries/Ambience/3_In den Hallen.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TrackEntries/Ambience/3_In den Hallen.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TrackEntries/Ambience/3_In den Hallen.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TrackEntries/Ambience/3_In den Hallen.asset.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +57,14 @@
   }
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$USER_HOME$/Downloads/adaptiveMusicPlayer_Win\AdaptiveMusicPlayer.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\Willkommen\Downloads\adaptiveMusicPlayer_Win" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="O:\Programme\Unity\Hub\Editor\6000.3.17f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath E:\Mehr\GameDev\Fork\AdaptiveMusic -debugCodeOptimization" />
@@ -114,6 +132,7 @@
       <workItem from="1787238883465" duration="4680000" />
       <workItem from="1788893406443" duration="2365000" />
       <workItem from="1789379241196" duration="6900000" />
+      <workItem from="1791799656915" duration="1277000" />
     </task>
     <servers />
   </component>

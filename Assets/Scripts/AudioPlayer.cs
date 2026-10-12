@@ -21,6 +21,7 @@ public class AudioPlayer : MonoBehaviour
     [SerializeField] private Slider vividnessSlider;
     [SerializeField] private Slider peopleNearbySlider;
     [SerializeField] private Slider dayToNightSlider;
+    [SerializeField] private Slider waterDistSlider;
     
     [SerializeField] private float intensity;
     [SerializeField] private float insideOutside;
@@ -28,6 +29,7 @@ public class AudioPlayer : MonoBehaviour
     [SerializeField] private float vividness;
     [SerializeField] private float peopleNearby;
     [SerializeField] private float dayToNight;
+    [SerializeField] private float waterDist;
     public int currentBgmID;
     public int currentAmbienceID;
 
@@ -149,5 +151,11 @@ public class AudioPlayer : MonoBehaviour
     {
         dayToNight = dayToNightSlider.value;
         RuntimeManager.StudioSystem.setParameterByName("DayToNight", dayToNight);
+    }
+
+    public void ChangeWaterDist()
+    {
+        waterDist = waterDistSlider.value;
+        RuntimeManager.StudioSystem.setParameterByName("WaterDist", waterDist);
     }
 }

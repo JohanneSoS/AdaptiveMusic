@@ -15,6 +15,7 @@ public class CurrentAmbienceDisplay : MonoBehaviour
     public GameObject vividnessSlider;
     public GameObject peopleNearbySlider;
     public GameObject dayToNightSlider;
+    public GameObject waterDistanceSlider;
     
     public void ChangeCurrentTrack(AmbienceEntry currentTrack)
     {

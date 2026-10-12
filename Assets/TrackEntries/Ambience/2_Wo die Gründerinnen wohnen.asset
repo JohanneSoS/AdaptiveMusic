@@ -15,5 +15,5 @@ MonoBehaviour:
   trackID: 2
   trackName: "Wo die Gr\xFCnderinnen wohnen"
   composer: 2
-  adaptiveParameter: 010000000400000005000000
+  adaptiveParameter: 0100000004000000
   soundType: 3

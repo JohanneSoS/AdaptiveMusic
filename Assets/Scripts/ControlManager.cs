@@ -109,5 +109,14 @@ public class ControlManager : MonoBehaviour
         {
             currentAmbienceDisplay.dayToNightSlider.SetActive(false);
         }
+
+        if (track.adaptiveParameter.Contains(AdaptiveParameter.WaterDistance))
+        {
+            currentAmbienceDisplay.waterDistanceSlider.SetActive(true);
+        }
+        else
+        {
+            currentAmbienceDisplay.waterDistanceSlider.SetActive(false);
+        }
     }
 }
