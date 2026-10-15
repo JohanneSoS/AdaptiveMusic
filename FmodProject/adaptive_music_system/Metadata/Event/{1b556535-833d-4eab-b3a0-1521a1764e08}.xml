@@ -187,9 +187,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{bd69d46f-3ad7-4ba5-bdd7-f613f07533af}">
-		<property name="volume">
-			<value>-9</value>
-		</property>
 		<relationship name="effectChain">
 			<destination>{78ab6dc7-25af-4aa7-b601-1c1eba515170}</destination>
 		</relationship>
@@ -214,6 +211,9 @@
 	<object class="SingleSound" id="{9e046505-8515-4312-a3a0-3fd1fe4f1b4b}">
 		<property name="length">
 			<value>576</value>
+		</property>
+		<property name="volume">
+			<value>-3.5</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{97c70228-0077-4076-8267-8042be34085c}</destination>
@@ -245,6 +245,9 @@
 		<property name="length">
 			<value>576</value>
 		</property>
+		<property name="volume">
+			<value>4</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{6e2564ea-9ae2-42a7-ba02-582443fdac1c}</destination>
 		</relationship>
@@ -275,6 +278,9 @@
 		<property name="length">
 			<value>576</value>
 		</property>
+		<property name="volume">
+			<value>-1</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{6ba6755c-4ca6-457d-a71c-4c3db168a775}</destination>
 		</relationship>
@@ -304,6 +310,9 @@
 	<object class="SingleSound" id="{e478d94a-a979-408a-bccd-53fec9c68d16}">
 		<property name="length">
 			<value>576</value>
+		</property>
+		<property name="volume">
+			<value>2.5</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{102aebda-727d-4960-9f7e-ca67e284f628}</destination>
@@ -580,6 +589,7 @@
 	<object class="MixerBusEffectChain" id="{669d89a2-50d8-416b-9013-578e22e0ea91}">
 		<relationship name="effects">
 			<destination>{d5106983-7f97-4bd6-a814-6a6dc48bf6f9}</destination>
+			<destination>{c4b107c3-fc65-490f-aba8-f1729f2263c3}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{9db8dc75-7a0b-459f-81f3-91e018329d10}" />
@@ -727,6 +737,17 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{d5106983-7f97-4bd6-a814-6a6dc48bf6f9}" />
+	<object class="ThreeEQEffect" id="{c4b107c3-fc65-490f-aba8-f1729f2263c3}">
+		<property name="lowGain">
+			<value>-7.5</value>
+		</property>
+		<property name="midGain">
+			<value>-3.5</value>
+		</property>
+		<property name="lowCrossover">
+			<value>720</value>
+		</property>
+	</object>
 	<object class="AutomationCurve" id="{3a33848e-f153-49fb-b8d3-cb00dba9068c}">
 		<relationship name="parameter">
 			<destination>{29600945-7c53-4088-9fcb-89bc0bfcc2f5}</destination>

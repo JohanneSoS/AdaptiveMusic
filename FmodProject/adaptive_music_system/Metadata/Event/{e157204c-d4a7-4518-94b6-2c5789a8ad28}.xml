@@ -437,6 +437,9 @@
 		<property name="length">
 			<value>8</value>
 		</property>
+		<property name="volume">
+			<value>6</value>
+		</property>
 		<relationship name="event">
 			<destination>{f860f3bb-854d-40f5-a9fc-5339a085af5f}</destination>
 		</relationship>
@@ -447,6 +450,9 @@
 		</property>
 		<property name="length">
 			<value>8</value>
+		</property>
+		<property name="volume">
+			<value>-2</value>
 		</property>
 		<relationship name="event">
 			<destination>{4327451b-ad7d-4f21-a7b5-8c8e2e9533df}</destination>
@@ -535,6 +541,9 @@
 		</property>
 		<property name="length">
 			<value>8</value>
+		</property>
+		<property name="volume">
+			<value>1</value>
 		</property>
 		<relationship name="event">
 			<destination>{ec10a0c4-cd0a-4a60-a2a2-3e88bc7d3011}</destination>

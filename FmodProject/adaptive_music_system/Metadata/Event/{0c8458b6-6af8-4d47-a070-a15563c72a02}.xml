@@ -298,7 +298,7 @@
 			<value>80.000124999999997</value>
 		</property>
 		<property name="volume">
-			<value>-6</value>
+			<value>-4.5</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{459511bf-5931-4ffc-96ff-c3cf052f57c2}</destination>
@@ -1230,7 +1230,7 @@
 			<value>75</value>
 		</property>
 		<property name="value">
-			<value>-21</value>
+			<value>-19</value>
 		</property>
 	</object>
 	<object class="Automator" id="{bc41dc40-7891-427e-a85f-5286e4c6bfc6}">
@@ -1246,7 +1246,7 @@
 			<value>0.082850041425020712</value>
 		</property>
 		<property name="value">
-			<value>-15.5000019</value>
+			<value>-14</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{2c2cd53b-f1ef-49ae-b87f-1e23d8ef06b5}">
@@ -1254,7 +1254,7 @@
 			<value>39.519469759734882</value>
 		</property>
 		<property name="value">
-			<value>-15.5000019</value>
+			<value>-14</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{c17c0fcc-e7ab-4181-9ad8-d6860cc0f3c2}">
@@ -1262,7 +1262,7 @@
 			<value>75.14498757249379</value>
 		</property>
 		<property name="value">
-			<value>-40</value>
+			<value>-26</value>
 		</property>
 	</object>
 	<object class="Automator" id="{99494a55-fd2d-4e5b-8a38-1fe578c7142f}">
@@ -1294,7 +1294,7 @@
 			<value>75.041050903119867</value>
 		</property>
 		<property name="value">
-			<value>0</value>
+			<value>2</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{9adad2ec-7a79-4d07-8deb-1277fa24af62}">

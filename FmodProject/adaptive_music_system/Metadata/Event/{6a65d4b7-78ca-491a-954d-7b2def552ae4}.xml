@@ -137,7 +137,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{d7a3070d-e689-4e80-ae3d-c7b9f7896929}">
 		<property name="volume">
-			<value>-10</value>
+			<value>-12.5</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{7eaab0e2-ee0b-4613-9063-47262bd78cda}</destination>
@@ -176,6 +176,9 @@
 		</property>
 		<property name="length">
 			<value>100</value>
+		</property>
+		<property name="volume">
+			<value>-2</value>
 		</property>
 		<property name="looping">
 			<value>true</value>
@@ -560,7 +563,13 @@
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>0</value>
+			<value>-1</value>
+		</property>
+		<property name="curveShape">
+			<value>0.5</value>
+		</property>
+		<property name="isSCurve">
+			<value>true</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{81ee565f-d1ba-4cf2-9b11-361dc2d39544}">
@@ -568,7 +577,7 @@
 			<value>100</value>
 		</property>
 		<property name="value">
-			<value>-14</value>
+			<value>-10</value>
 		</property>
 	</object>
 	<object class="Automator" id="{78367251-3ece-4bb2-9da0-6ebd95a7f644}">
@@ -600,7 +609,7 @@
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>0</value>
+			<value>-11</value>
 		</property>
 		<property name="curveShape">
 			<value>0.5</value>
@@ -624,6 +633,12 @@
 		<property name="value">
 			<value>-21</value>
 		</property>
+		<property name="curveShape">
+			<value>0.5</value>
+		</property>
+		<property name="isSCurve">
+			<value>true</value>
+		</property>
 	</object>
 	<object class="AutomationPoint" id="{337e168d-21b3-4c33-adbe-ff4a0660c714}">
 		<property name="position">
@@ -641,7 +656,10 @@
 			<value>-19</value>
 		</property>
 		<property name="curveShape">
-			<value>0.40506056</value>
+			<value>0.5</value>
+		</property>
+		<property name="isSCurve">
+			<value>true</value>
 		</property>
 	</object>
 	<object class="Automator" id="{eecc6429-2988-4985-8126-cb7c6792a668}">
@@ -674,6 +692,12 @@
 		</property>
 		<property name="value">
 			<value>-14</value>
+		</property>
+		<property name="curveShape">
+			<value>0.5</value>
+		</property>
+		<property name="isSCurve">
+			<value>true</value>
 		</property>
 	</object>
 	<object class="Automator" id="{43de55a9-e7b1-4ca2-ac71-0ebe5b30cb52}">
